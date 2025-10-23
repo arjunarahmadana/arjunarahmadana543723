@@ -1,0 +1,444 @@
+<!--Menentukan tipe dokumen HTML-->
+<!DOCTYPE html>
+<!--Menentukan bahwa bahasa pada halaman awal website ini menggunakan Bahasa Indonesia-->
+<html lang="id">
+<head>
+  <!--Mengatur karakter encoding yang digunakan, yaitu UTF-8 untuk mendukung semua karakter bahasa dunia-->
+  <meta charset="UTF-8">
+  <!--Membuat tampilan website responsif agar menyesuaikan ukuran layar pada berbagai macam device (handphone, tablet, laptop, dan lain-lain)-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Judul halaman yang akan tampil di tab browser-->
+  <title>Sistem Informasi Statistik Kota Tangerang Selatan</title>
+</style>
+</head>
+<!--Bagian utama isi halaman-->
+<body>
+<!--HEADER / BAGIAN ATAS HALAMAN-->
+  <header>
+    <!--Menampilkan logo Pemerintah Kota Tangerang Selatan di sisi kiri header-->
+    <img class="logo-left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lambang_Kota_Tangerang_Selatan.svg/1228px-Lambang_Kota_Tangerang_Selatan.svg.png" alt="Logo Tangsel">
+    <!--Menampilkan logo HUT Tangsel Ke-16 di sisi kanan header-->
+    <img class="logo-right" src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/835/2024/11/01/Hut_TangSel_16_Logo_Tagline_Secondary_Full_Color-1221824129.png" alt="hut tangsel 16">
+    <!--Tautan masuk ke halaman login (ke situs BPS Tangsel)-->
+    <a class="login" href="https://tangselkota.bps.go.id/" target="_blank">login</a>
+    <!--Judul besar di bagian header-->
+    <h1>SISTEM INFORMASI STATISTIK</h1>
+    <!--Subjudul di bawah judul utama-->
+    <h2>KOTA TANGERANG SELATAN</h2>
+  </header>
+
+  <!--CONTAINER UTAMA UNTUK SIDEBAR DAN KONTEN-->
+  <div class="container">
+    <!--SIDEBAR (MENU SAMPING)-->
+    <div class="sidebar">
+      <!--Judul menu sidebar-->
+      <h4>Menu</h4>
+
+      <!--Daftar navigasi di sidebar-->
+      <ul>
+        <!--Tautan menuju data penduduk di situs BPS Kota Tangerang Selatan-->
+        <li><a href="https://tangselkota.bps.go.id/subject/12/penduduk.html" target="_blank">Penduduk</a></li>
+        <!--Tulisan Bold pada Kalimat "Geografi dan Iklim"-->
+        <h3><strong>Geografi dan Iklim</strong></h3>
+        <!--Beberapa tautan ke situs BPS Kota Tangerang Selatan-->
+        <li><a href="https://tangselkota.bps.go.id/id" target="_blank">Pemerintahan</a></li>
+        <li><a href="https://tangselkota.bps.go.id/id" target="_blank">Sosial</a></li>
+        <li><a href="https://tangselkota.bps.go.id/id" target="_blank">Pertanian</a></li>
+        <li><a href="https://tangselkota.bps.go.id/id" target="_blank">Industri</a></li>
+        <li><a href="https://tangselkota.bps.go.id/id" target="_blank">Pariwisata dan Keuangan</a></li>
+      </ul>
+    </div>
+
+    <!--KONTEN UTAMA HALAMAN WEBSITE-->
+    <div class="content">
+      <!--Judul pada bagian tabel statistik-->
+      <h3>Luas Daerah  Menurut Kecamatan di Kota Tangerang Selatan, 2024</h3>
+      <!--Subjul tabel dalam bahasa inggris-->
+      <div class="subjudul"><em>Total Area by District in Tangerang Selatan Municipality, 2024</em></div>
+
+      <!--TABEL LUAS DATA DAERAH-->
+      <table>
+        <!--Baris judul dan kolom-->
+        <tr>
+          <th>Kecamatan<br><em>District</em></th>
+          <th>Ibu Kota Kecamatan<br><em>Capital of District</em></th>
+          <th>Luas<br><em>Total Area (km²/sq.km)</em></th>
+        </tr>
+
+        <!--Baris-baris data per kecamatan-->
+        <tr><td>Setu</td><td>Kademangan</td><td>16,76</td></tr>
+        <tr><td>Serpong</td><td>Serpong</td><td>28,27</td></tr>
+        <tr><td>Pamulang</td><td>Pamulang Barat</td><td>28,74</td></tr>
+        <tr><td>Ciputat</td><td>Sawah</td><td>21,11</td></tr>
+        <tr><td>Ciputat Timur</td><td>Pondok Ranji</td><td>17,81</td></tr>
+        <tr><td>Pondok Aren</td><td>Perigi Baru</td><td>29,80</td></tr>
+        <tr><td>Serpong Utara</td><td>Pondok Jagung</td><td>22,36</td></tr>
+        <!--Baris total keseluruhan luas dengan tulisan yang di bold-->
+        <tr><td><strong>Total</strong></td><td>-</td><td>164,86</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!--Garis pemisah antara tabel dan bagian-bagian peta-->
+         <hr class="divider">
+<!--BAGIAN PETA WILAYAH-->
+  <div class="map">
+    <!--Judul bagian Peta-->
+        <h3>Peta Wilayah</h3>
+        <!--Gambar peta Kota Tangerang Selatan-->
+        <img src="https://i0.wp.com/kabartangsel.com/wp-content/uploads/2016/12/Peta-Kota-Tangerang-Selatan-Tangsel-Provinsi-Banten-Indonesia.jpg?resize=1024%2C723&ssl=1" alt="Peta Wilayah Tangerang Selatan">
+     </div>
+
+  <!--FOOTER / BAGIAN BAWAH HALAMAN-->   
+  <footer>
+    <!--Logo BPS Kota Tangerang Selatan di bagian footer-->
+    <img src="https://data.tangerangselatankota.go.id/uploads/admin/bpstangsel.png" alt="16 Tahun Tangsel">
+    <!--Informasi lembaga & kontak-->
+    <p><strong>Badan Pusat Statistik Kota Tangerang Selatan</strong></p>
+    <p>(021)75791502</p>
+    <p></p>
+    <p>Jl. Raya Serpong - Puspiptek No. 156, Kelurahan Kademangan, Kecamatan Setu, Tangerang Selatan, Banten.</p>
+  </footer>
+  </body>
+  </html>
+<!--=====BAGIAN CSS=====-->
+<style>
+    /* === RESET & BACKGROUND === */
+    * {
+    margin: 0;
+    /* Menghapus jarak luar default pada semua elemen */
+    padding: 0;
+    /* Menghapus jarak dalam default */
+    box-sizing: border-box;
+    /* Agar padding dan border ikut dihitung dalam ukuran elemen */
+    }
+
+    body {
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+    /* Font utama halaman */
+    background: linear-gradient(to bottom,#ecf39e 0%, #aacc69 35%,#90a955 65%, #ecf39e 100%);
+    /* Gradasi warna hijau ke kuning muda sebagai background */
+    background-attachment: fixed;
+    /* Background tetap diam saat halaman di-scroll */
+    width: 100vw;
+    /* Lebar penuh layar */
+    min-height: 100vh;
+    /* Tinggi minimal setinggi layar penuh */
+    overflow-x: hidden;
+    /* Mencegah scroll horizontal */
+    }
+
+    /* === HEADER === */
+    header {
+    background-color: #ecf39e;
+    /* Warna latar belakang header */
+    border-bottom: 3px solid #000;
+    /* Garis hitam di bawah header */
+    text-align: center;
+    /* Semua teks di tengah */
+    width: 100%;
+    padding: 50px 0;
+    /* Memberi ruang atas bawah */
+    position: relative;
+    /* Untuk memposisikan elemen absolut di dalamnya */
+    }
+
+    header .logo-left {
+    position: absolute;
+    /* Posisi bebas atau relatif di dalam header */
+    left: 50px;
+    /* Jarak dari kiri */
+    top: 20px;
+    /* Jarak dari atas */
+    height: 120px;
+    /* Tinggi logo kiri */
+    }
+
+    header .logo-right {
+    position: absolute;
+    /* Posisi bebas atau relatif di dalam header */
+    right: 10px;
+    /* Logo kanan menempel ke sisi kanan */
+    top: -10px;
+    height: 200px;
+    /* Tinggi logo kanan */
+    }
+
+    header h1 {
+      font-size: 48px;
+    /* Ukuran besar untuk judul utama */
+    font-weight: bold;
+    /* Huruf tebal */
+    letter-spacing: 6px;
+    /* Spasi antar huruf */
+    }
+
+    header h2 {
+    font-size: 25px;
+    /* Ukuran subjudul */
+    color: #555;
+    /* Warna abu-abu sedang */
+    margin-top: 5px;
+    /* Jarak sedikit di atasnya */
+    }
+
+    header .login {
+    position: absolute;
+    /* Posisi bebas */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Menempatkan teks login di tengah horizontal */
+    bottom: 10px;
+    /* Jarak dari bawah */
+    font-size: 14px;
+    /* Ukuran teks 8*/
+    text-decoration: underline;
+    /* Dekorasi tampilan teks pada halaman */
+    color: blue;
+    /* Warna teks */
+    transition: 0.3s;
+    /* Efek perubahan halus */
+    }
+
+    header .login:hover {
+      color: darkblue;
+    /* Ganti warna saat kursor diarahkan */
+    transform: translateX(-50%) scale(1.05);
+    /* Efek sedikit membesar */
+    }
+
+    /* === LAYOUT === */
+    .container {
+      display: flex;
+    /* Sidebar dan konten sejajar horizontal */
+    width: 100%;
+    /* Lebar */
+    background-color: transparent;
+    /* Warna latar belakang */
+    min-height: 100vh;
+    /* Tinggi minimal container */
+    }
+
+    /* Sidebar */
+    .sidebar {
+    width: 220px;
+    /* Lebar sidebar */
+    height: 100vh;
+    /* Membuat tinggi sidebar sama dengan tinggi seluruh layar (viewport height) */
+    padding: 15px;
+    /* Memberikan jarak dalam (ruang antara konten dan tepi sidebar) sebesar 15 piksel */
+    background-color: #f1e3fe;
+    /* Warna ungu muda */
+    border-right: 3px solid #42077c;
+    /* Garis batas kanan */
+    border-bottom: 3px solid #42077c;
+    /* Menambahkan garis batas bawah berwarna ungu tua untuk memberikan efek bingkai */
+    }
+
+    .sidebar h4 {
+      font-size: 45px;
+      /* Mengatur ukuran huruf elemen <h4> di dalam sidebar menjadi besar, yaitu 45 piksel */
+      margin-bottom: 15px;
+      /* Memberikan jarak kosong (spasi) di bawah teks sebesar 15 piksel agar tidak menempel dengan elemen berikutnya */
+    }
+
+    .sidebar h3 {
+      font-size: 20px;
+      /* Mengatur ukuran huruf elemen <h3> di dalam sidebar menjadi 20 piksel */
+      font-weight: bold;
+      /* Membuat teks <h3> tampil tebal (bold) agar lebih menonjol */
+      margin: 15px 0 5px 0;
+      /* Mengatur jarak luar (margin): atas 15px, kanan 0px, bawah 5px, kiri 0px — untuk memberi spasi antar elemen */
+    }
+
+    .sidebar ul {
+      list-style: none;
+      /* Menghilangkan tanda bullet (•) atau nomor pada daftar <ul> di dalam sidebar agar tampil lebih bersih */
+    }
+
+    .sidebar ul li {
+      margin: 45px 0;
+      /* Memberikan jarak vertikal antara setiap item daftar (li): atas 45px dan bawah 45px */
+      font-size: 20px;
+      /* Mengatur ukuran teks setiap item daftar menjadi 20 piksel */
+      text-decoration: underline;
+      /* Menambahkan garis bawah pada teks untuk memberi kesan interaktif seperti tautan */
+      transition: 0.3s;
+      /* Mengatur efek transisi halus selama 0.3 detik saat elemen berubah (misalnya saat hover) */
+      transform: translateX(1%)
+      /* Menggeser posisi teks sedikit ke kanan sebesar 1% dari lebarnya untuk memberi efek estetis */
+    }
+
+    .sidebar ul li:hover {
+    color: darkblue;
+    /* Saat kursor diarahkan ke item daftar, warna teks berubah menjadi biru tua */
+    transform: translateX(1.5%) scale(1.06);
+    /* Memberikan efek animasi: teks sedikit bergeser ke kanan (1.5%) dan membesar 6% untuk kesan interaktif */
+    transition: all 0.2s ease;
+    /* Mengatur semua perubahan (warna & transformasi) terjadi secara halus selama 0.2 detik dengan gaya transisi 'ease' */
+}
+
+    .sidebar ul li a:active {
+      background: #ffffff00;
+      /* Mengatur latar belakang menjadi transparan (#ffffff00 berarti putih dengan opasitas 0) saat tautan ditekan */
+      transform: scale(0.95);
+      /* Memberikan efek mengecil sedikit (95% dari ukuran normal) untuk meniru efek “klik ditekan” */
+      color: #aa0712;
+      /* Mengubah warna teks menjadi merah tua (#aa0712) ketika elemen sedang dalam keadaan aktif/tekan */
+    
+    }
+
+    /* === MAIN CONTENT === */
+    .content {
+      flex-grow: 1;
+      /* Membuat elemen .content otomatis melebar untuk mengisi sisa ruang kosong di dalam layout flex (biasanya di samping sidebar) */
+      padding: 30px;
+      /* Memberikan jarak dalam sebesar 30 piksel agar isi konten tidak menempel ke tepi elemen */
+      background-color: transparent;
+      /* Mengatur latar belakang konten menjadi transparan agar warna atau elemen di belakangnya tetap terlihat */
+    }
+
+    .content h3 {
+      text-align: center;
+      /* Mengatur teks judul <h3> agar berada di tengah secara horizontal */
+      font-size: 20px;
+      /* Menentukan ukuran teks judul sebesar 20 piksel */
+      margin-bottom: 5px;
+      /* Memberikan jarak bawah 5 piksel antara judul dan elemen di bawahnya */
+    }
+
+    .subjudul {
+      text-align: center;
+      /* Mengatur teks subjudul agar rata tengah */
+      font-size: 14px;
+      /* Menentukan ukuran huruf subjudul yang lebih kecil, yaitu 14 piksel */
+      color: #555;
+      /* Memberi warna abu-abu gelap pada teks subjudul */
+      margin-bottom: 20px;
+      /* Memberikan jarak bawah 20 piksel agar ada ruang antara subjudul dan tabel/konten berikutnya */
+    }
+
+    table {
+      width: 100%;
+      /* Membuat tabel memenuhi lebar area konten sepenuhnya */
+      border-collapse: collapse;
+      /* Menggabungkan garis batas antar sel agar tidak terlihat ganda */
+      border: 3px solid #ffd000;
+      /* Menambahkan garis tepi tabel berwarna kuning keemasan dengan ketebalan 3 piksel */
+      margin-top: 10px;
+      /* Memberikan jarak 10 piksel di atas tabel */
+    }
+
+    th, td {
+      border: 1.5px solid #ffd000;
+      /* Memberikan garis batas berwarna kuning keemasan di setiap sel header (th) dan data (td) */
+      padding: 19.85px;
+      /* Menambahkan ruang dalam tiap sel agar teks tidak menempel pada garis batas */
+      text-align: center;
+      /* Menyusun teks di tengah tiap sel */
+      font-size: 17px;
+      /* Menentukan ukuran teks di dalam tabel sebesar 17 piksel */
+    }
+
+    th {
+      background-color: #f6c800;
+      /* Memberikan warna latar kuning cerah pada header tabel untuk membedakannya dari baris data */
+    }
+
+    tr:nth-child(even) {
+      background-color: #fffce6;
+      /* Memberi warna latar krem muda pada baris genap untuk menciptakan efek zebra (bergantian warna) */
+    }
+
+    tr:nth-child(odd) td {
+      background-color: #ffffff;
+      /* Memberi warna putih pada baris ganjil agar kontras dengan baris genap */
+    }
+
+    tr:last-child {
+      background-color: #ffd700;
+      /* Memberi warna latar emas pada baris terakhir tabel untuk menonjolkan total atau ringkasan */
+      font-weight: bold;
+      /* Membuat teks di baris terakhir menjadi tebal */
+    }
+
+    .divider {
+      border: none;
+      /* Menghapus garis batas default elemen pembatas (biasanya <hr>) */
+      height: 3px;
+      /* Mengatur ketebalan garis pembatas menjadi 3 piksel */
+      background-color: #000;
+      /* Memberi warna hitam pada garis pembatas */
+      margin: 40px auto;
+      /* Memberikan jarak vertikal 40 piksel di atas dan bawah serta membuatnya rata tengah */
+      width: 90%;
+      /* Membuat garis pembatas memiliki lebar 90% dari area konten */
+      border-radius: 10px;
+      /* Membulatkan ujung garis pembatas agar tampil lebih halus */
+    }
+
+    /*===PETA===*/ 
+    .map {
+      text-align: center;
+      /* Menyusun seluruh isi elemen .map (termasuk judul dan gambar) agar rata tengah */
+      margin: 40px 0;
+      /* Memberikan jarak vertikal 40px di atas dan bawah peta agar tidak terlalu rapat dengan elemen lain */
+      background-color: transparent;
+      /* Membuat latar belakang peta transparan agar mengikuti warna latar konten utama */
+    }
+
+    .map h3 {
+      font-size: 20px;
+      /* Menentukan ukuran teks judul bagian peta sebesar 20 piksel */
+      margin-bottom: 15px;
+      /* Memberikan jarak bawah 15px antara judul dan gambar peta */
+    }
+
+    .map img {
+      max-width: 85%;
+      /* Membatasi lebar maksimum gambar peta agar tidak melebihi 85% dari lebar kontainer */
+      border: 5px solid #000;
+      /* Menambahkan bingkai hitam setebal 5 piksel di sekeliling gambar peta */
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+      /* Menambahkan efek bayangan lembut di sekitar gambar agar terlihat menonjol */
+      transition: transform 0.3s;
+      /* Mengatur animasi transisi halus selama 0.3 detik saat gambar berubah ukuran (hover) */
+    }
+
+    .map img:hover {
+      transform: scale(1.03);
+      /* Saat kursor diarahkan ke gambar, gambar sedikit membesar (103%) untuk efek interaktif */
+      cursor: zoom-in;
+      /* Mengubah ikon kursor menjadi kaca pembesar untuk menandakan gambar bisa diperbesar */
+    }
+
+    /* === FOOTER === */
+    footer {
+      background-color: transparent;
+      /* Membuat latar belakang footer transparan agar menyatu dengan desain halaman */
+      text-align: center;
+      /* Menyusun semua isi footer (teks dan gambar) di tengah */
+      border-top: 7px solid #000;
+      /* Menambahkan garis tebal berwarna hitam di bagian atas footer sebagai pemisah */
+      padding: 20px 10px;
+      /* Memberikan ruang dalam di atas dan bawah footer agar isi tidak menempel pada tepi */
+      font-size: 18px;
+      /* Menentukan ukuran teks di footer menjadi 18 piksel agar mudah dibaca */
+    }
+
+    footer img {
+      height: 160px;
+      /* Mengatur tinggi gambar/logo di footer menjadi 160 piksel */
+      display: block;
+      /* Menampilkan gambar sebagai blok penuh agar bisa diatur posisinya dengan margin */
+      margin: 10px auto;
+      /* Menyusun gambar agar rata tengah dengan jarak vertikal 10 piksel */
+    }
+
+    footer p {
+      margin: 5px 0;
+      /* Memberikan jarak atas dan bawah 5 piksel antar paragraf dalam footer agar tidak terlalu rapat */
+    }
+  </style>
+</head>
+  
